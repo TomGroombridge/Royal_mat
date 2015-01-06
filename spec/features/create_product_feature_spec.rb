@@ -5,7 +5,7 @@ require 'spec_helper'
 	context 'given a name and description' do 
 
 		it 'should display the new course in the list of courses' do
-			visit "/product/new"
+			visit "/products/new"
 			fill_in 'Name', with: 'Pallet'
 			fill_in 'Description', with: "A full Pallet"
 			click_button 'Create Product'
